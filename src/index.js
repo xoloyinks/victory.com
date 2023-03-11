@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './input.css';
+import './output.css';
 import reportWebVitals from './reportWebVitals';
 import Victory from './victiory';
 
