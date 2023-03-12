@@ -1,35 +1,41 @@
 import React from 'react';
 import skill from "./styles/images/icons8-skills.png";
-import img from "./styles/images/icons8-skills.png"
+import img from "./styles/images/icons8-skills.png";
+import img_html from "./styles/images/icons8-html-96.png";
+import img_css from "./styles/images/icons8-css3-50.png";
+import img_js from "./styles/images/icons8-js-100.png";
+import img_react from "./styles/images/icons8-react-100.png";
+import img_tailwind from "./styles/images/icons8-tailwind-css-96.png";
+import img_git from "./styles/images/icons8-git-100.png"
 
 const data = [
     {
-        image: img,
+        image: img_html,
         language: 'HTML',
         about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        image: img,
+        image: img_css,
         language: 'CSS',
         about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        image: img,
+        image: img_js,
         language: 'JavaScript',
         about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        image: img,
+        image: img_react,
         language: 'React',
         about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        image: img,
+        image: img_tailwind,
         language: 'Tailwind CSS',
         about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-        image: img,
+        image: img_git,
         language: 'Git',
         about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     }
