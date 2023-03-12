@@ -1,5 +1,5 @@
 import React from 'react';
-// import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 import skill from "./styles/images/icons8-skills.png";
 import img from "./styles/images/icons8-skills.png";
 import img_html from "./styles/images/icons8-html-96.png";
@@ -45,7 +45,7 @@ const data = [
 const Skills = ({image, language, about}) => {
     return(
         <>
-        {/* <Fade bottom> */}
+        <Fade bottom>
             <section className='p-5 bg-slate-400 drop-shadow-lg shadow-slate-300 text-center rounded'>
                 <div className='py-3'>
                     <img src={image} alt={language} className="mx-auto" />
@@ -58,7 +58,7 @@ const Skills = ({image, language, about}) => {
                 </div>
             </section>
             <br />
-            {/* </Fade> */}
+            </Fade>
         </>
     )
 }
