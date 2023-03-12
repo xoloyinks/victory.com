@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@500&display=swap');
+
+html{
+    overflow-x: hidden;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    font-family: 'Pacifico', cursive;
+}
+
+.me{
+    background-image: url(images/20221124_145149.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
