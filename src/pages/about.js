@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaEnvelope, FaLinkedin, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 export default function About() {
   return (
     <>
@@ -21,8 +22,14 @@ export default function About() {
                 </div>
             </div>
 
-            <div className='me w-10/12 h-[400px] rounded-full self-center border-2 border-slate-400 shadow-lg'>
-            
+            <div className='flex justify-evenly text-3xl text-slate-600'>
+                <a href="/twitter.com"><FaTwitter /></a> 
+                <a href="/twitter.com"><FaEnvelope /></a> 
+                <a href="/twitter.com"><FaLinkedin /></a> 
+                <a href="/twitter.com"><FaWhatsapp /></a> 
+            </div>
+
+            <div className='me w-11/12 h-[300px] rounded-full self-center border-2 border-slate-400 shadow-lg'>
             </div>
         </section>
     </>
