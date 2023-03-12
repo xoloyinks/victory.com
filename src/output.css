@@ -633,6 +633,11 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -707,6 +712,34 @@ video {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-\[10px\] {
+  line-height: 10px;
+}
+
+.leading-\[20px\] {
+  line-height: 20px;
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
+.leading-\[50px\] {
+  line-height: 50px;
+}
+
+.leading-\[60px\] {
+  line-height: 60px;
+}
+
+.leading-\[70px\] {
+  line-height: 70px;
+}
+
+.leading-\[80px\] {
+  line-height: 80px;
 }
 
 .text-white {

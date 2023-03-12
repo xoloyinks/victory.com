@@ -6,7 +6,7 @@ export default function Porfolio() {
   return (
     <>
       <section className='w-screen'>
-          <nav className='flex items-center justify-between fixed w-full font-semibold px-5 py-5 text-xl'>
+          <nav className='flex items-center text-white justify-between fixed w-full font-semibold px-5 py-5 text-xl'>
             <div className='logo text-2xl'>Kolawole</div>
             <div className='flex justify-between w-2/12'><span><BsFillMoonFill /></span><span><FaBars /></span></div>
           </nav>
