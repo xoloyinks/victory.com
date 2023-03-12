@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './output.css';
+import './styles/style.css'
 import reportWebVitals from './reportWebVitals';
-import Victory from './victiory';
+import Portfolio from './victiory';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Victory />
+    <Portfolio />
   </React.StrictMode>
 );
 
