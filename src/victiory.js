@@ -3,6 +3,7 @@ import {FaBars} from 'react-icons/fa';
 import {BsFillMoonFill} from 'react-icons/bs'
 import About from './pages/about';
 import Skill from './pages/skill';
+import Project from './pages/project';
 export default function Porfolio() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Porfolio() {
           </nav>
           <About />
           <Skill />
+          <Project />
       </section>
     </>
   )
