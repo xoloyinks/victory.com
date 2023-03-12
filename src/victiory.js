@@ -5,10 +5,11 @@ import About from './pages/about';
 export default function Porfolio() {
   return (
     <>
-      <section className='w-screen'>
-          <nav className='flex items-center text-white justify-between fixed w-full font-semibold px-5 py-5 text-xl'>
+      <section className='w-screen relative'>
+      
+          <nav className='flex items-center text-black justify-between fixed backdrop-blur-sm bg-slate-200 w-full px-5 py-5'>
             <div className='logo text-2xl'>Kolawole</div>
-            <div className='flex justify-between w-2/12'><span><BsFillMoonFill /></span><span><FaBars /></span></div>
+            <div className='flex justify-between w-2/12 text-xl'><span><BsFillMoonFill /></span><span><FaBars /></span></div>
           </nav>
           <About />
       </section>
