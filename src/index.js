@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './output.css';
-import './styles/style.css'
+import './pages/styles/style.css'
 import reportWebVitals from './reportWebVitals';
 import Portfolio from './victiory';
 
