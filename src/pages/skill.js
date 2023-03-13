@@ -3,9 +3,9 @@ import Fade from 'react-reveal/Fade';
 import skill from "./styles/images/icons8-skills.png";
 import img from "./styles/images/icons8-skills.png";
 import img_html from "./styles/images/icons8-html-96.png";
-import img_css from "./styles/images/icons8-css3-50.png";
+import img_css from "./styles/images/icons8-css3-100.png";
 import img_js from "./styles/images/icons8-js-100.png";
-import img_react from "./styles/images/icons8-react-100.png";
+import img_react from "./styles/images/icons8-react-native-100.png";
 import img_tailwind from "./styles/images/icons8-tailwind-css-96.png";
 import img_git from "./styles/images/icons8-git-100.png";
 
